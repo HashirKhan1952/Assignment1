@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5,h6,p,li
     #banner
     {
     height:120px;
-    background-color:SlateGrey;
+    background-color:rgb(255, 255, 255);
     }
     .box
     {
