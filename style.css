@@ -86,13 +86,12 @@ aside{
     margin: 5px;
 }
 figure{
-    position: relative;
-    width: 110px;
-    height: 110px;
+    position:inherit;
+    width: 50px;
+    height: 50px;
     margin: 5px;
     padding: 5px;
     background-color: whitesmoke;
-    border: 2px solid black;
 }
 figurecaption{
     position: bottom;
