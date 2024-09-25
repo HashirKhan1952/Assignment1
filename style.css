@@ -3,9 +3,9 @@
 body 
 { 
     background-color: rgb(255, 255, 255); 
-    font-family: Verdana, Geneva, Arial, sans-serif;
-    padding:0px; 
-    margin:0px; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 } 
 /* The wrapper ID style is used with a div tag to provide a 960px wide page */ 
 #wrapper 
@@ -86,7 +86,7 @@ aside{
     margin: 5px;
 }
 figure{
-    position:inherit;
+    position:relative;
     width: 50px;
     height: 50px;
     margin: 5px;
@@ -97,4 +97,19 @@ figurecaption{
     position: bottom;
     background-color: black;
     color: wheat;
+}
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+nav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #ddd;
+    color: black;
 }
