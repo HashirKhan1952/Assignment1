@@ -85,6 +85,12 @@ aside{
     padding: 5px;
     margin: 5px;
 }
+aboutme{
+    float: right;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+}
 figure{
     position:relative;
     width: 50px;
