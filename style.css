@@ -92,7 +92,7 @@ aboutme{
     margin: 5px;
 }
 figure{
-    position:relative;
+    position:absolute;
     width: 50px;
     height: 50px;
     margin: 0px;
@@ -120,6 +120,7 @@ nav a:hover {
     color: black;
 }
 video{
+    position: absolute;
     width: 400px;
     padding: 15px;
     margin: 5px;
