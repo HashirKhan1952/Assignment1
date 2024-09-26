@@ -30,7 +30,7 @@ body
     float: left; 
     width: 360px;
     background-color:silver; 
-    height:600px; 
+    height:750px; 
 } 
 /* Defining a style for a set of tags separated by commas applies the style to all tags */ 
 h1,h2,h3,h4,h5,h6,p,li 
