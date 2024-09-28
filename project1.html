@@ -2,6 +2,14 @@
 <html>
 <head>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta charset='utf-8'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <!-- full-size monitor style sheet-->
+    <link href="fluid.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)">
+    <!-- tablet style sheet-->
+    <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
+    <!-- phone style sheet-->
+    <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
     <style>
         body{
             width:80%; margin:auto; font-family:sans-serif;
@@ -39,31 +47,53 @@
     </style>
 </head>
 <body>
-    <div class="frame">
-        <div class="slideshow">
-            <input type="radio" name="button" class="show" id="one" checked="checked"/>
-            <div class="slide"><a target="_blank" title="One" href="slide1.jpg">
-                <img width="512" alt="One" src="slide1.jpg"></a>
-            </div>
-            <input type="radio" name="button" class="show" id="two" />
-            <div class="slide"><a target="_blank" title="Two" href="slide2.jpg">
-                <img width="512" alt="Two" src="slide2.jpg"></a>
-            </div>
-            <input type="radio" name="button" class="show" id="three" />
-            <div class="slide"><a target="_blank" title="Three" href="slide3.jpg">
-                <img width="512" alt="Three" src="slide3.jpg"></a>
-            </div>
-            <input type="radio" name="button" class="show" id="four" />
-            <div class="slide"><a target="_blank" title="Four" href="slide4.jpg">
-                <img width="512" alt="Four" src="slide4.jpg"></a>
+    <header>
+        <div id="wrapper">
+            <nav>
+                <h5>
+                    <a href="contact.html">Contact</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="aboutme.html">About Me</a>
+                    <a href="Main Code.html">Home</a>
+                </h5>
+            </nav>
+            <div class="frame">
+                <div class="slideshow">
+                    <input type="radio" name="button" class="show" id="one" checked="checked"/>
+                    <div class="slide"><a target="_blank" title="One" href="slide1.jpg">
+                        <img width="512" alt="One" src="slide1.jpg"></a>
+                    </div>
+                    <input type="radio" name="button" class="show" id="two" />
+                    <div class="slide"><a target="_blank" title="Two" href="slide2.jpg">
+                        <img width="512" alt="Two" src="slide2.jpg"></a>
+                    </div>
+                    <input type="radio" name="button" class="show" id="three" />
+                    <div class="slide"><a target="_blank" title="Three" href="slide3.jpg">
+                        <img width="512" alt="Three" src="slide3.jpg"></a>
+                    </div>
+                    <input type="radio" name="button" class="show" id="four" />
+                    <div class="slide"><a target="_blank" title="Four" href="slide4.jpg">
+                        <img width="512" alt="Four" src="slide4.jpg"></a>
+                    </div>
+                </div>
+                <ul>
+                    <li class="button"><label class="button-label" for="one">1</label></li>
+                    <li class="button"><label class="button-label" for="two">2</label></li>
+                    <li class="button"><label class="button-label" for="three">3</label></li>
+                    <li class="button"><label class="button-label" for="four">4</label></li>
+                </ul>
             </div>
         </div>
-        <ul>
-            <li class="button"><label class="button-label" for="one">1</label></li>
-            <li class="button"><label class="button-label" for="two">2</label></li>
-            <li class="button"><label class="button-label" for="three">3</label></li>
-            <li class="button"><label class="button-label" for="four">4</label></li>
-        </ul>
+    </header>
+    <div id="footer"></div>
+        <nav>
+            <h5>
+                <a href="contact.html">Contact</a>
+                <a href="projects.html">Projects</a>
+                <a href="aboutme.html">About Me</a>
+                <a href="Main Code.html">Home</a>
+            </h5>
+        </nav>
     </div>
 </body>
 </html>
