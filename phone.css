@@ -18,25 +18,39 @@ float: none;
 height: 1200px;
 background-color: DarkOrange;
 }
-#left-column {
-float: none;
-height:120px;
-width:100%;
-}
-#footer {
-height:80px;
-background-color:black;
+#left-column
+    {
+    float: left;
+    width: 37%;
+    background-color:silver;
+    height:734px;
+    }
+header,footer{
+    background-color: #333;
+    color: #333;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 #banner{
 height:100px;
 background-color:black;
 }
-.box {
-width: 90%;
-min-height:120px;
-background-color:dark-red;
-margin: 15px;
-opacity:1;}
+/* Advanced Web design relies on class or ID styles, never tables */ 
+.box 
+{ 
+    height: 150px; 
+    width: 150px;
+    float: left; 
+    background-color:tan; 
+    margin: 15px; 
+    opacity:.5; 
+} 
+/* The following pseudo-class applies to the box class when in a hovered state */ 
+.box:hover 
+{ 
+    background-color:white; 
+    opacity:1; 
+} 
 .button {
 font-size:x-large;
 text-decoration:none;
