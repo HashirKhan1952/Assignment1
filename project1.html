@@ -31,6 +31,7 @@
         }
         .button{
             display: inline-block;
+            width:10%;
         }
         input{
             display:none;
@@ -39,7 +40,12 @@
             font-size: 1rem; padding:1rem; background: black; display:block; height:1rem; width:1rem; text-align:center; border-radius: .5rem; color: white; cursor: pointer; transition: background 2s, color 2s;
         }
         .button-label:hover{
-            background:red;
+            background:rgb(255, 255, 255);
+        }
+        .button-container{
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem; 
         }
         @media only screen and (max-width: 480px){
             body{width:100%;}
@@ -76,12 +82,12 @@
                         <img width="512" alt="Four" src="slide4.jpg"></a>
                     </div>
                 </div>
-                <ul>
+                <div class="button-container">
                     <li class="button"><label class="button-label" for="one">1</label></li>
                     <li class="button"><label class="button-label" for="two">2</label></li>
                     <li class="button"><label class="button-label" for="three">3</label></li>
                     <li class="button"><label class="button-label" for="four">4</label></li>
-                </ul>
+                </div>
             </div>
         </div>
     </header>

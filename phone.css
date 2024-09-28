@@ -51,17 +51,5 @@ background-color:black;
     background-color:white; 
     opacity:1; 
 } 
-.button {
-font-size:x-large;
-text-decoration:none;
-background-color:LightBlue;
-display:block;
-padding:5px;
-margin:5px;
-border-radius:5px;
-box-shadow:5px 5px 3px gray;
-}
-.button:hover {
-box-shadow:5px 5px 3px black;
-}
+
 }
