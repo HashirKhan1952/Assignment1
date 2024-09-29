@@ -86,10 +86,23 @@ aside{
     margin: 5px;
 }
 #aboutme{
-    float: right;
+    margin-right: 20px; 
+}
+#aboutme img {
+    display: block;
     width: 200px;
-    padding: 5px;
-    margin: 5px;
+    height: auto;
+}
+#aboutme-video-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+#aboutme-video-container video {
+    display: block;
+    width: 420px;
+    height: auto;
 }
 figure{
     width: 200px;
