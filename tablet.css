@@ -52,12 +52,3 @@ header,footer{
 .clear{
 clear: both;
 }
-video{
-    width: 30%;
-    padding: 15px;
-    background-color:black;
-    border: whitesmoke;
-    box-shadow: 2px 2px 2px black;
-    display: block;
-    margin: 20px auto;
-}
