@@ -1,7 +1,10 @@
-@media only screen
-and (max-width : 480px) {
+@media only screen and (max-width : 480px) {
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 body {
-color: white;
 font-family: Verdana, Geneva, Arial, sans-serif;
 padding:0px;
 margin:0px;
@@ -15,7 +18,7 @@ margin-top:0px;
 #right-column {
 width:100%;
 float: none;
-height: 1200px;
+min-height: 1200px;
 background-color: DarkOrange;
 }
 #left-column
@@ -25,12 +28,7 @@ background-color: DarkOrange;
     background-color:silver;
     height:734px;
     }
-header,footer{
-    background-color: #333;
-    color: #333;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
+
 #banner{
 height:100px;
 background-color:black;
