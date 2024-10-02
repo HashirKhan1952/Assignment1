@@ -10,6 +10,45 @@
     <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
     <!-- phone style sheet-->
     <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+    <style>
+        figure{
+            width:320px;
+        }
+        img{
+            width:100%;
+        }
+        .slideshow, .frame{
+            position: relative; height: 512px; width:40%; margin:auto;
+            margin-top: -250px;
+        }
+        .slide{
+            width: 100%; overflow: hidden; position: absolute; height: 100%; left: 0; top: 0; opacity: 0; transition: opacity 5s;
+        }
+        .show:checked + .slide{
+            opacity: 1;
+        }
+        .button{
+            display: inline-block;
+            width:10%;
+        }
+        input{
+            display:none;
+        }
+        .button-label{
+           margin-left: 1%; font-size: 1rem; padding:1rem; background: black; display:block; height:1rem; width:1rem; text-align:center; border-radius: .5rem; color: white; cursor: pointer; transition: background 2s, color 2s;
+        }
+        .button-label:hover{
+            background:rgb(255, 255, 255);
+        }
+        .button-container{
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem; 
+        }
+        @media only screen and (max-width: 480px){
+            body{width:100%;}
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -22,6 +61,32 @@
                     <a href="Main Code.html">Home</a>
                 </h5>
             </nav>
+            <div class="frame"></div>
+                <div class="slideshow">
+                    <input type="radio" name="button" class="show" id="one" checked="checked"/>
+                    <div class="slide"><a target="_blank" title="One" href="rr1.png">
+                        <img width="512" alt="One" src="rr1.png"></a>
+                    </div>
+                    <input type="radio" name="button" class="show" id="two" />
+                    <div class="slide"><a target="_blank" title="Two" href="rr2.png">
+                        <img width="512" alt="Two" src="rr2.png"></a>
+                    </div>
+                    <input type="radio" name="button" class="show" id="three" />
+                    <div class="slide"><a target="_blank" title="Three" href="rr3.png">
+                        <img width="512" alt="Three" src="rr3.png"></a>
+                    </div>
+                    <input type="radio" name="button" class="show" id="four" />
+                    <div class="slide"><a target="_blank" title="Four" href="rr4.png">
+                        <img width="512" alt="Four" src="rr4.png"></a>
+                    </div>
+                </div>
+                <div class="button-container">
+                    <li class="button"><label class="button-label" for="one">1</label></li>
+                    <li class="button"><label class="button-label" for="two">2</label></li>
+                    <li class="button"><label class="button-label" for="three">3</label></li>
+                    <li class="button"><label class="button-label" for="four">4</label></li>
+                </div>
+            </div>
     </header>
     <div id="footer">
         <nav>
