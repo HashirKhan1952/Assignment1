@@ -29,6 +29,8 @@ body
 /* The left-column ID style is floated left */ 
 #left-column 
 { 
+    animation: txtanimation 3s ease-in-out;
+    overflow: hidden;
     float: left; 
     width: 360px;
     background-color:silver; 
@@ -97,6 +99,7 @@ aside{
     border-radius: 10px;
 }
 #aboutme img {
+    border-radius: 10px;
     display: block;
     width: 200px;
     height: auto;
@@ -108,13 +111,16 @@ aside{
     align-items: center;
     padding: 20px;
     border-radius: 10px;
-    
+    animation: videoabtmeanimation 5s ease-in-out
 }
 #aboutme-video-container video {
     display: block;
     width: 420px;
     height: auto;
     border-radius: 10px;
+}
+.aboutmetxt{
+    animation: contentanimation 5s ease-in-out;
 }
 figure{
     width: 200px;
@@ -158,6 +164,9 @@ video{
     margin: 20px auto;
     border-radius: 10px;
 }
+img{
+    border-radius: 10px;
+}
 .home-container{
     margin-top: 100px;
     animation: txtanimation 3s ease-in-out;
@@ -177,4 +186,8 @@ video{
 @keyframes contentanimation{
     0% {opacity: 0;}
     100% {opacity: 1;}
+}
+@keyframes videoabtmeanimation{
+    0% {transform: translateY(550px);}
+    100% {transform: translateY(0px);}
 }
