@@ -156,6 +156,10 @@ img{
 .content-container{
     animation: contentanimation 5s ease-in-out;
 }
+.feedback-container{
+    animation: feedbackanimation 5s ease-in-out;
+    overflow: hidden;
+}
 @keyframes navanimation{
     0% {background-color: white}
     50% {background-color: grey; transform: translateY(2px) scale(1.1);}
@@ -177,4 +181,8 @@ img{
     0% {background-color: white}
     50% {background-color: grey; transform: translateY(2px) scale(1.1);}
     100% {background-color: white;}
+}
+@keyframes feedbackanimation{
+    0% {opacity: 0; transform: translateY(20px);}
+    100% {opacity: 1; transform: translateY(0px);}
 }
