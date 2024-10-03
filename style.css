@@ -78,13 +78,13 @@ aside{
     border-radius: 10px;
 }
 #aboutme{
-    margin-right: 20px; 
-    border-radius: 10px;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
 }
 #aboutme img {
-    border-radius: 10px;
-    display: block;
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
     height: auto;
     border-radius: 10px;
 }
@@ -97,8 +97,8 @@ aside{
     animation: videoabtmeanimation 5s ease-in-out
 }
 #aboutme-video-container video {
-    display: block;
-    width: 420px;
+    width: 60%;
+    max-width: 600px;
     height: auto;
     border-radius: 10px;
 }
