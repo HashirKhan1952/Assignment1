@@ -38,12 +38,6 @@ h1,h2,h3,h4,h5,h6,p,li
     color: #333;
     height:80px;
     }
-    #banner
-    {
-    height:60px;
-    background-color: #333;
-    color: #333;
-    }
     /* Advanced Web design relies on class or ID styles, never tables */ 
 .box 
 { 
