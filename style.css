@@ -114,7 +114,7 @@ figure{
     border-radius: 10px;
 }
 figurecaption{
-    position: bottom;
+    position: absolute;
     background-color: black;
     color: wheat;
 }
