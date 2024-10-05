@@ -25,8 +25,8 @@
     }
     /*The box tag that is useed to make a box*/ 
     .box{ 
-        height: 60%; 
-        width: 60%;
+        height: 50px; 
+        width: 50px;
         float: left; 
         background-color:tan; 
         margin: 15px; 
