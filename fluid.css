@@ -1,46 +1,37 @@
+/*Hashir Khan*/
+/*100911091*/
+/*Assignment1*/
+/* Fluid CSS*/ 
 @charset "UTF-8";
-body
-{
-background-color: black;
-font-family: Verdana, Geneva, Arial, sans-serif;
-padding:0px;
-margin:0px;
+/* Body Tag that is used for the entire webpage*/ 
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-h1,h2,h3,h4,h5,h6,p,li
-{
-    margin-left:15px;
-    }
-    #wrapper
-    {
+/* Wrapper tag that is used to create a section that changes based ob the screen size*/ 
+#wrapper{
     width: 66%;
     height: 800px;
     margin-left: auto;
     margin-right: auto;
     background-color:LightSlateGrey;
-    }
-    #right-column
-    {
-    float: right;
-    width: 66%;
-    height: 600px;
-    background-color:LightGray;
-    }
-    #left-column
-    {
+}
+/* The left-column tag that is used to make a column on the left*/ 
+#left-column{
     float: left;
     width: 33%;
     background-color:silver;
     height:730px;
-    }
-    #footer
-    {
+}
+/*footer tag to set the color and height of the footer*/
+#footer{
     background-color: #333;
     color: #333;
     height:80px;
     }
-    /* Advanced Web design relies on class or ID styles, never tables */ 
-.box 
-{ 
+/*box tag that makes a box*/ 
+.box{ 
     height: 150px; 
     width: 150px;
     float: left; 
@@ -48,13 +39,8 @@ h1,h2,h3,h4,h5,h6,p,li
     margin: 15px; 
     opacity:.5; 
 } 
-/* The following pseudo-class applies to the box class when in a hovered state */ 
-.box:hover 
-{ 
+/*pseudo class for when hovering over box*/ 
+.box:hover{ 
     background-color:white; 
     opacity:1; 
-} 
-    .clear
-    {
-        clear: both;
 }
