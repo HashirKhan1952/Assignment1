@@ -18,7 +18,8 @@
     #wrapper {width: 100%;
     }
     #left-column{
-        float: left;
+        display: flex;
+        flex-wrap: wrap;
         width: 37%;
         background-color:silver;
         height:734px;
