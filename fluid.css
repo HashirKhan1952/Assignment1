@@ -37,6 +37,7 @@ body{
     float: left; 
     background-color:tan; 
     margin: 15px; 
+    margin-bottom: 20px;
     opacity:.5; 
 } 
 /*pseudo class for when hovering over box*/ 
