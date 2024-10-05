@@ -1,6 +1,11 @@
+<!--Hashir Khan-->
+<!--100911091-->
+<!--Assignment 1-->
+<!--project2.html-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Meta charset defines the character set-->
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>Project2 Page for Portfolio</title>
@@ -11,36 +16,43 @@
     <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
     <!-- phone style sheet-->
     <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+    <!--style for the slideshow-->
     <style>
-        figure{
-            width:320px;
-        }
+        /*sets the width of the image*/
         img{
             width:100%;
         }
+        /*properties of slideshow and frame*/
         .slideshow, .frame{
             position: relative; height: 512px; width:40%; margin:auto;
             margin-top: -250px;
         }
+        /*each indivual slide's properties*/
         .slide{
             width: 100%; overflow: hidden; position: absolute; height: 100%; left: 0; top: 0; opacity: 0; transition: opacity 5s;
         }
+        /*what each slide does when the button for it is clicked*/
         .show:checked + .slide{
             opacity: 1;
         }
+        /*properties for the button*/
         .button{
             display: inline-block;
             width:10%;
         }
+        /*hides all the input elements on the page*/
         input{
             display:none;
         }
+        /*properties of the button*/
         .button-label{
            margin-left: 1%; font-size: 1rem; padding:0.5rem; background: black; display:block; height:1rem; width:1rem; text-align:center; border-radius: .5rem; color: white; cursor: pointer; transition: background 2s, color 2s;
         }
+        /*what happens when you hover over the button*/
         .button-label:hover{
             background:rgb(255, 255, 255);
         }
+        /*makes the buttons centered and in line with each other*/
         .button-container{
             display: flex;
             justify-content: center;
@@ -49,8 +61,10 @@
     </style>
 </head>
 <body>
+    <!--Header section of the website-->
     <header>
         <div id="wrapper">
+            <!--Navigation bar that has links to other pages-->
             <nav>
                 <h5>
                     <a href="contact.html">Contact</a>
@@ -59,6 +73,7 @@
                     <a href="index.html">Home</a>
                 </h5>
             </nav>
+            <!--code for the slides-->
             <div class="frame"></div>
                 <div class="slideshow">
                     <input type="radio" name="button" class="show" id="one" checked="checked">
@@ -78,6 +93,7 @@
                         <img width="512" alt="Four" src="rr4.png"></a>
                     </div>
                 </div>
+                <!--code for the buttons-->
                 <div class="button-container">
                     <div class="button"><label class="button-label" for="one">1</label></div>
                     <div class="button"><label class="button-label" for="two">2</label></div>
@@ -86,7 +102,9 @@
                 </div>
             </div>
     </header>
+    <!--footer at the bottom of the page-->
     <div id="footer">
+        <!--nav bar at the bottom of the page-->
         <nav>
             <h5>
                 <a href="contact.html">Contact</a>
