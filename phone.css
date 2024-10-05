@@ -18,16 +18,15 @@
     #wrapper {width: 100%;
     }
     #left-column{
-        display: flex;
-        flex-wrap: wrap;
+        float: left;
         width: 37%;
         background-color:silver;
         height:734px;
     }
     /*The box tag that is useed to make a box*/ 
     .box{ 
-        height: 70px; 
-        width: 70px;
+        height: 60%; 
+        width: 60%;
         float: left; 
         background-color:tan; 
         margin: 15px; 
