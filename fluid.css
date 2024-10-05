@@ -9,7 +9,7 @@ body{
     margin: 0;
     padding: 0;
 }
-/* Wrapper tag that is used to create a section that changes based ob the screen size*/ 
+/* Wrapper tag that is used to create a section that changes based on the screen size*/ 
 #wrapper{
     width: 66%;
     height: 800px;

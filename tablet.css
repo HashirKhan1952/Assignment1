@@ -1,29 +1,32 @@
+/*Hashir Khan*/
+/*100911091*/
+/*Assignment1*/
+/* Tablet CSS*/ 
 @charset "UTF-8";
 html{
     margin: 0;
     padding: 0;
     height: 100%;
 }
+/* Body Tag that is used for the entire webpage*/ 
 body {
 font-family: Verdana, Geneva, Arial, sans-serif;
 padding:0px;
 margin:0px;
 }
+/*makes all the following tags have a margin from the left*/ 
 h1,h2,h3,h4,h5,h6,p,li {
 margin-left:15px;
 margin-top:0px;
 }
+/* Wrapper tag that is used to create a section that changes based on the screen size*/ 
 #wrapper {width: 100%;
 min-height: 800px;
 margin-left: auto;
 margin-right: auto;
 background-color:DarkGrey;
 }
-#right-column {
-float: none;
-height: 600px;
-background-color: DarkOrange;
-}
+/* The left-column tag that is used to make a column on the left*/ 
 #left-column
     {
     float: left;
@@ -31,8 +34,7 @@ background-color: DarkOrange;
     background-color:silver;
     height:730px;
     }
-
-/* Advanced Web design relies on class or ID styles, never tables */ 
+/*The box tag that is useed to make a box*/ 
 .box 
 { 
     height: 150px; 
@@ -42,12 +44,9 @@ background-color: DarkOrange;
     margin: 15px; 
     opacity:.5; 
 } 
-/* The following pseudo-class applies to the box class when in a hovered state */ 
+/*pseudo class for when hovering over box*/
 .box:hover 
 { 
     background-color:white; 
     opacity:1; 
-} 
-.clear{
-clear: both;
 }
