@@ -14,7 +14,7 @@ font-family: Verdana, Geneva, Arial, sans-serif;
 padding:0px;
 margin:0px;
 }
-/*makes all the following tags have a margin from the left*/ 
+/*makes all the following tags have a margin from the left and none from the top*/ 
 h1,h2,h3,h4,h5,h6,p,li {
 margin-left:15px;
 margin-top:0px;
