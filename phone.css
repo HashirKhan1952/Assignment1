@@ -32,6 +32,7 @@
         margin: 15px; 
         padding: 30px;
         opacity:.5; 
+        overflow: hidden;
     } 
     /*pseudo class for when hovering over box*/
     .box:hover{ 
