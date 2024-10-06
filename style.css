@@ -6,6 +6,7 @@
 /* Body Tag that is used for the entire webpage*/ 
 body 
 { 
+    background-color: #333;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
