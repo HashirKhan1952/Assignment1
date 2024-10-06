@@ -33,6 +33,8 @@
         padding: 30px;
         opacity:.5; 
         overflow: hidden;
+        justify-content: center;
+        align-items: center;
     } 
     /*pseudo class for when hovering over box*/
     .box:hover{ 
